@@ -1,5 +1,9 @@
 #big {
     border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    margin-top: 40px;
 }
 
 th {
@@ -11,6 +15,16 @@ td {
 }
 
 th, td {
-    padding: 15px;
+    padding: 10px;
     text-align: left;
+}
+
+header {
+    background-color: blue;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+body {
+    background-color: blueviolet;
 }
