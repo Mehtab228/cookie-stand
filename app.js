@@ -59,9 +59,12 @@ let grandTotal = function(){
     grandTotalCookies.push(hourTotal);
     finalTotal += hourTotal;
     let rowTotal = document.createElement('td');
-    rowTotal.textContent = finalTotal;
+    rowTotal.textContent = hourTotal;
     renderRowTotal.appendChild(rowTotal);
   }
+  let finalCookieTotal = document.createElement('td');
+  finalCookieTotal.textContent = finalTotal;
+  renderRowTotal.appendChild(finalCookieTotal);
   console.log('grandTotalCookies', grandTotalCookies);
   console.log('finalTotal', finalTotal);
 };
