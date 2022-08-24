@@ -1,22 +1,17 @@
+
+
 #big {
     border:1px solid black;
     margin-left: auto;
     margin-right: auto;
     background-color: aqua;
-    margin-top: 40px;
-}
-
-th {
-    border: 1px solid black;
-}
-
-td {
-    border: 1px solid black;
+    margin-top: 50px;
 }
 
 th, td {
     padding: 10px;
     text-align: left;
+    border: 1px solid black;
 }
 
 header {
@@ -27,4 +22,35 @@ header {
 
 body {
     background-color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+h1 {
+   padding-top: 30px;
+   margin-top: -8px;
+   font-size: 60px;
+   font-family: 'DynaPuff';
+}
+
+#first {
+    display: flex;
+    margin-left: 150px;
+    
+}
+
+#salmon1 {
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#salmon2 {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
 }
