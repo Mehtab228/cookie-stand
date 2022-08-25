@@ -45,7 +45,7 @@ Location.prototype.render = function () {
 };
 
 let grandTotal = function(){
-  let renderRowTotal = document.createElement('tr');
+  let renderRowTotal = document.createElement('tfoot');
   table.appendChild(renderRowTotal);
   let rowTitle = document.createElement('td');
   rowTitle.textContent = 'Total';
@@ -107,6 +107,25 @@ allStores[1].render();
 allStores[2].render();
 allStores[3].render();
 allStores[4].render();
+
+
+let formEl = document.getElementById('city-form');
+formEl.addEventListener('submit', function(event) {
+  event.preventDefault();
+  console.log(event);
+  let {location, minCust, maxCust, averageCookie} = event.target;
+  // let location = event.target.location;
+  // let minCust = event.target.minCust;
+  // let maxCust = event.target.maxCust;
+  // let averageCookie = event.target.averageCookie
+  console.log(location.value, minCust.value, maxCust.value, averageCookie.value);
+  let inputStore = new Location(location.value, parseInt(minCust.value), parseInt(maxCust.value), parseInt(averageCookie.value));
+  console.log(allStores);
+  inputStore.render();
+  let table = document.querySelector('table');
+  table.deleteTFoot();
+  grandTotal();
+});
 
 grandTotal();
 

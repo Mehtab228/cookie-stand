@@ -23,6 +23,28 @@
         <h2>Tracking Sales Data</h2>
         <table id="big">
         </table>
+        <form id="city-form">
+        <fieldset>
+            <legend>Add a new city</legend>
+            <section id="input-section">
+                <label>City Name:</label>
+                <input name="location" type="text">
+            </section>
+            <section id="input-section">
+                <label>Minimum Customers:</label>
+                <input name="minCust" type="number">
+            </section>
+            <section id="input-section">
+                <label>Maximum Customers:</label>
+                <input name="maxCust" type="number">
+            </section>
+            <section id="input-section">
+                <label>Average Cookies sold per hour:</label>
+                <input name="averageCookie" type="number">
+            </section>
+                <button type="submit">Add City</button>
+            </fieldset>
+        </form>
     </main>
     <script src="app.js"></script>
 </body>
