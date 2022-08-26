@@ -135,7 +135,7 @@ margin-bottom: -1px;
  #locations p {
     font-style: 'Rubik';
     font-size: 10px; 
-    margin-left: 30px;
+    margin-left: 3px;
  }
 
  #hoursopen {
@@ -165,4 +165,8 @@ margin-bottom: -1px;
     font-style: 'Rubik';
     font-size: 10px; 
     margin-left: 30px; 
+ }
+
+ #locations {
+   border: black solid;
  }
