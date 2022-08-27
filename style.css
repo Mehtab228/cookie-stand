@@ -65,7 +65,9 @@ h1 {
 h2 {
     text-align: center;
     margin-bottom: -30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu';
+    color: rgb(204, 196, 196);
+    font-weight: 500;
 }
 
 #city-form {
@@ -74,9 +76,10 @@ h2 {
 
 legend {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu';
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 700;
+    color: rgb(204, 196, 196);
 }
 
 form {

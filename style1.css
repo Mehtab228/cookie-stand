@@ -113,7 +113,7 @@ p {
  }
 
  #locations {
-     margin-left: 75px;
+     margin-left: -70px;
      display: flex;
      flex-direction: column;
     }
@@ -139,7 +139,8 @@ margin-bottom: -1px;
  }
 
  #hoursopen {
-    margin-left: 150px;
+    margin-left: 30px;
+    border: black 3px solid;
  }
 
  #hoursopen p {
@@ -157,7 +158,7 @@ margin-bottom: -1px;
 
  h7 {
 font-style: 'Rubik';
-font-size: 15px;
+font-size: 20px;
 margin-bottom: -1px;
  }
 
@@ -170,3 +171,14 @@ margin-bottom: -1px;
  #locations {
    border: black solid;
  }
+
+ #full-footer {
+   display: flex;
+   justify-content: center;
+ }
+
+ #contact {
+   border: black 3px solid;
+   margin-left: 20px;
+ }
+
